@@ -19,9 +19,3 @@ You can also delete a single tab.
 I advocate to keep only one group.
 
 "Tab List Editor" capture only current window tab's.
-
-A screenshot of the semi-current progress:
-
-![Screenshot of the groups page](/images/TabAnalyzer_Prototype.png)
-
-
