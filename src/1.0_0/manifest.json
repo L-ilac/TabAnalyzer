@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "tablisteditor.html",
+      "persistent": false
+   },
+   "chrome_url_overrides" : {
+      "newtab" : "tablisteditor.html"
+    },
+
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Like OneTab but leaner and with minimum permissions, without tracking.",
+   //"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiYkxhNNRw1OS8JJRELVhyqYhwpgo6gKKZHjvq0wiWMwett2yq4ymi02W82OL2RdLlHUDbttrlm7A2X+7CBd06hVpqi4q/WI+CoSlaYAXgc+hqZEaubQJt4Su1FGgxy9PrLXHpVp6WSgNUCcT6ngbePJAQfICB2JowDC4yNiEVeabMEjpeayLIv3HaiaJnt1QoW288YHZLSKltNqFBO88qh+4XorkLRpFzojmzwUJ4OAB0Vkxj9okJgCe1bRpF7AAJin8dEXJXJnuRvUz9jA7SqeJxjWg2wz7s1MHE2jz8PrnUrT0/O+YIf6ZAQxgzAWKAgIsJzJIR5WOH4qkG2HXuwIDAQAB",
+   "manifest_version": 2,
+   "name": "tabAnalyzer",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "activeTab", "storage", "unlimitedStorage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Tab Analyzer",
+      "default_icon": {
+         "16": "images/get_started16.png",
+         "32": "images/get_started32.png",
+         "48": "images/get_started48.png",
+         "128": "images/get_started128.png"
+       }
+   },
+   "icons": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+   }
+}
