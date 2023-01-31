@@ -22,6 +22,6 @@ I advocate to keep only one group.
 
 A screenshot of the semi-current progress:
 
-![Screenshot of the groups page](/images/screenshot.jpg)
+![Screenshot of the groups page](/images/TabAnalyzer_Prototype.png)
 
 
